@@ -1,4 +1,4 @@
 import requests
 
-response = requests.post('http://ccid-eddieantonio.rhcloud.com/preyansh')
-print (response.status_code)
+response = requests.get('https://raw.githubusercontent.com/preyansh/404labs/master/request.py')
+print (response.text)
